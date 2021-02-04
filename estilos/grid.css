@@ -1,0 +1,123 @@
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: 8.333333333333333%;
+}
+
+.col-2{
+    width: 16.66666666666666%;
+}
+
+.col-3{
+    width: 24.99999999999999%;
+}
+
+.col-4{
+    width: 33.33333333333332%;
+}
+
+.col-5{
+    width: 41.66666666666666%;
+}
+
+.col-6{
+    width: 49.99999999999998%;
+}
+
+.col-7{
+    width: 49.99999999999998%;
+}
+
+.col-8{
+    width: 66.66666666666666%;
+}
+
+.col-9{
+    width: 74.99999999999999%;
+}
+
+.col-10{
+    width: 83.33333333333333%;
+}
+
+.col-11{
+    width: 91.66666666666666%;
+}
+
+.col-12{
+    width: 100%;
+
+}
+
+.col-1, .col-2,.col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.col-12{
+    padding: 50px 10px 10px;
+}
+
+.col-8{
+    padding-left: 30px;
+}
+
+.ordenar{
+    text-align: center;
+}
+
+button{
+    background-color:  #7acc2d;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: #66ab26;
+}
+
+@media screen and (max-width:552px){
+    .container.p .row{
+        display: block;
+        text-align: center;
+        border: 1px solid #948f8f;
+    }
+
+    .col-8{
+        margin: auto;
+    }
+
+    .row.i{
+        height: 500px;
+    }
+
+    .col-12.i{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .col-12{
+        padding-top: 0;
+        padding-left:3%;
+        padding-right: 3%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+
+    h1{
+        padding-left: 5%;
+    }
+}

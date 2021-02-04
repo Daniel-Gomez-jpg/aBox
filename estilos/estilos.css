@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+.header{
+    height: 60px;
+    background-color: rgb(223, 199, 197);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: inherit;
+    margin: 0;
+}
+
+.header img{
+height: inherit;
+}
+
+.header ul{
+    height: inherit;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.header li{
+    height: inherit;
+    padding-right: 10px;
+}
+
+.header nav{
+    height: inherit;
+}
+
+.header a{
+    height: inherit;
+    color:black;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header a:hover{
+    color: rgb(66, 65, 65);
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+/* main section */
+
+.main{
+    padding: 15%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../img/curve.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    padding: 30px;
+    margin-top: -300px;
+}
+
+.product1{
+    padding: 40px 30px 30px;
+    margin-top: -300px;
+}
+
+.content{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 1px #948f8f;
+}
+
+.content h2{
+    text-align: center;
+}
+
+
+.boxes{
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    background-color: #66ab26;
+}
+
+/* footer */
+.footer{
+    height: 42px;
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer p strong a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -------------------------------pagina de pagos */
+.modulo-pago{
+    background-color: white;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.prodImg{
+    margin: auto;
+}
+
+.prodImg img{
+    width: 250px;
+    height: 250px;
+}
+
+.data{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.modulo-pago form{
+    margin: auto 0;
+}
